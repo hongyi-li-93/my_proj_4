@@ -22,7 +22,6 @@ public class BuilderExample {
         Person2 chai = new Person2
                 .Person2Builder("chai", "Crouch")
                 .id(UUID.randomUUID())
-                .middleName("mid")
                 .build();
         System.out.println(chai);
 
